@@ -1,0 +1,13 @@
+{
+  "name": "Twitter Bootstrapr",
+  "version": "1.0",
+  "icon": "icon.png",
+  "description": "A Chrome plugin to inject twitter bootstrap in to pages.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ]
+}
