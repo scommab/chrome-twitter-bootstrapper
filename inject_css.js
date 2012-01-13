@@ -19,11 +19,11 @@ link.type = 'text/css';
 link.href = "http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css"
 link.media = 'all';  
 head.appendChild(link);
-if(getElementsByClassName("container").length == 0) {
+if(getElementsByClassName("container").length == 0 && getElementsByClassName("container-fluid").length == 0 ) {
   var body = document.getElementsByTagName('body')[0];
   if(body.getAttribute("class") == null) {
-    body.setAttribute("class", "container");
+    body.setAttribute("class", "container-fluid");
   } else {
-    body.setAttribute("class", body.getAttribute("class") + " container");
+    body.setAttribute("class", body.getAttribute("class") + " container-fluid");
   }
 }
