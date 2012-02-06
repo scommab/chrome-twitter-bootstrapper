@@ -12,13 +12,18 @@ function getElementsByClassName(strClassName){
     }
     return (arrReturnElements)
 }
-var head = document.getElementsByTagName('head')[0];
-var link = document.createElement('link');
-link.rel  = 'stylesheet';
-link.type = 'text/css';
-link.href = "http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css"
-link.media = 'all';  
-head.appendChild(link);
+function injectCSS(url) {
+  var head = document.getElementsByTagName('head')[0];
+  var link = document.createElement('link');
+  link.rel  = 'stylesheet';
+  link.type = 'text/css';
+  link.href = url;
+  link.media = 'all';  
+  head.appendChild(link);
+}
+injectCSS("http://twitter.github.com/bootstrap/assets/css/bootstrap.css")
+injectCSS("http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css")
+// Add a container class if non exists
 if(getElementsByClassName("container").length == 0 && getElementsByClassName("container-fluid").length == 0 ) {
   var body = document.getElementsByTagName('body')[0];
   if(body.getAttribute("class") == null) {
