@@ -5,8 +5,8 @@ This is a Chrome plugin that would lets you test what twitter-bootstrap would lo
 
 Sites to try it on
 ------------------
+* Slashdot: http://slashdot.org
 * Craigslist Apartments for rent page: http://sfbay.craigslist.org/apa/
-* I-80 Road Conditions in Wyoming: http://www.wyoroad.info/pls/Browse/WRR.RoutesResults?SelectedRoute=I80&Sensors=Sensors&Webcameras=Webcameras
 * Hacker News: http://news.ycombinator.com/
 
 Note: On many pages nothing will happen, and on others the page might become unusable. But you can always refresh to get back to a clean state.
