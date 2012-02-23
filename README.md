@@ -1,14 +1,7 @@
 Twitter Bootstrapper
 ====================
 
-The Idea 
---------
-The idea for this plugin comes from a simple idea I had:
-
-1. Lots of websites look horrible for no good reason
-2. Twitter Bootstrap makes pages look better with little effort
-
-So I went around with the chrome inspector injecting a link to Twitter Bootstrap's css file on to a number of bad looking pages and bam they looked better. So I wrote up a simple plugin to automate the process.
+This is a Chrome plugin that would lets you test what twitter-bootstrap would look like on different websites. 
 
 Sites to try it on
 ------------------
