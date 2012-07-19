@@ -5,14 +5,15 @@ This is a Chrome plugin that would lets you test what twitter-bootstrap would lo
 
 How to Install
 --------------
-To install the plugin click here:
-https://github.com/scommab/chrome-twitter-bootstrapper/raw/master/bootstrapper.crx
+
+Just click [Install](https://github.com/scommab/chrome-twitter-bootstrapper/raw/master/bootstrapper.crx).
 
 Sites to try it on
 ------------------
-* Slashdot: http://slashdot.org
-* Craigslist Apartments for rent page: http://sfbay.craigslist.org/apa/
-* Hacker News: http://news.ycombinator.com/
+* [Slashdot](http://slashdot.org)
+* [Craigslist Apartments for rent page](http://sfbay.craigslist.org/apa/)
+* [Hacker News](http://news.ycombinator.com/)
+* [Astronomy Picture of the Day](http://apod.nasa.gov/apod/astropix.html)
 
 Note: On many pages nothing will happen, and on others the page might become unusable. But you can always refresh to get back to a clean state.
 
