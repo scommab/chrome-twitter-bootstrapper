@@ -16,6 +16,16 @@ Sites to try it on
 
 Note: On many pages nothing will happen, and on others the page might become unusable. But you can always refresh to get back to a clean state.
 
+Screenshots
+-----------
+
+### Before
+![Before](http://scommab.github.com/chrome-twitter-bootstrapper/screenshots/apod-normal.png)
+
+
+### After
+![After](http://scommab.github.com/chrome-twitter-bootstrapper/screenshots/apod-bootstraped.png)
+
 
 More on Twitter Bootstrap
 -------------------------
