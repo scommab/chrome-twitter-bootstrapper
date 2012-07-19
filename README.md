@@ -1,7 +1,7 @@
 Twitter Bootstrapper
 ====================
 
-This is a Chrome plugin that would lets you test what twitter-bootstrap would look like on different websites. 
+This is a Chrome plugin that lets you see what different websites would look like if they used twitter-bootstrap's css. 
 
 How to Install
 --------------
